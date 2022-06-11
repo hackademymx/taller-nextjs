@@ -1,0 +1,19 @@
+.product__screen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.product__image {
+    padding: 2rem;
+    border: 1px solid #eaeaea;
+}
+
+.product__info {
+    color: #0070f3;
+    border: 1px solid #eaeaea;
+    padding: 2rem;
+    min-width: 400px;
+}

@@ -114,3 +114,20 @@
     flex-direction: column;
   }
 }
+
+.products__box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.product__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  border: 1px solid #eaeaea;
+  padding: 2rem;
+  color: #0070f3;
+}
